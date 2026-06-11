@@ -17,7 +17,7 @@ const DISTRICT = 'Guntur';
 export default function ApprovalsPage() {
   const initial = EMRS.filter((e) => e.district === DISTRICT && e.status === 'submitted');
   const [decisions, setDecisions] = useState<Record<string, EMRStatus>>({});
-  const [selectedId, setSelectedId] = useState(initial[0]?.id ?? null);
+  const [selectedId, setSelectedId] = useState<string | null>(initial[0]?.id ?? null);
   const [note, setNote] = useState('');
 
   const queue = initial.filter((e) => !decisions[e.id]);

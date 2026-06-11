@@ -4,7 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { MapCard } from '@/components/maps/map-card';
-import { MultiLineChart, DonutChart, CHART_COLORS } from '@/components/charts/charts';
+import { MultiLineChart, DonutChart } from '@/components/charts/charts';
+import { CHART_COLORS } from '@/lib/chart-colors';
 import {
   DISEASE_HOTSPOTS,
   AI_PREDICTIONS,

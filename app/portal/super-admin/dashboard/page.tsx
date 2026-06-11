@@ -11,7 +11,8 @@ import { StatCard } from '@/components/shared/stat-card';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Button } from '@/components/ui/button';
-import { TrendAreaChart, DonutChart, VerticalBarChart, CHART_COLORS } from '@/components/charts/charts';
+import { TrendAreaChart, DonutChart, VerticalBarChart } from '@/components/charts/charts';
+import { CHART_COLORS } from '@/lib/chart-colors';
 import { MapCard } from '@/components/maps/map-card';
 import {
   STATE_TOTALS,

@@ -13,7 +13,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { StatusBadge } from '@/components/shared/status-badge';
-import { TrendAreaChart, CHART_COLORS } from '@/components/charts/charts';
+import { TrendAreaChart } from '@/components/charts/charts';
+import { CHART_COLORS } from '@/lib/chart-colors';
 import { DISTRICTS, EMRS, MONTHLY_TREND, SPECTACLE_ORDERS, CAMPS } from '@/lib/data';
 import { formatNumber, percent } from '@/lib/utils';
 

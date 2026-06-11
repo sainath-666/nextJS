@@ -86,7 +86,7 @@ export default function ScreeningDashboard() {
             <CardContent className="flex items-center gap-4 p-6">
               <div className="rounded-lg bg-accent/10 p-3 text-accent"><ListChecks className="size-6" /></div>
               <div className="flex-1">
-                <p className="font-semibold">Today's Patients</p>
+                <p className="font-semibold">Today&apos;s Patients</p>
                 <p className="text-sm text-muted-foreground">{myEmrs.length} screened · view & continue</p>
               </div>
               <ArrowRight className="size-5 text-muted-foreground" />

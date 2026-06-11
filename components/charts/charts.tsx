@@ -18,17 +18,10 @@ import {
   YAxis,
 } from 'recharts';
 
+import { CHART_COLORS } from '@/lib/chart-colors';
+
 const AXIS = { fontSize: 12, fill: 'hsl(var(--muted-foreground))' };
 const GRID = 'hsl(var(--border))';
-
-export const CHART_COLORS = [
-  'hsl(201 96% 32%)',
-  'hsl(173 80% 40%)',
-  'hsl(38 92% 50%)',
-  'hsl(0 84% 60%)',
-  'hsl(262 83% 58%)',
-  'hsl(142 71% 45%)',
-];
 
 function ChartTooltip({ active, payload, label }: any) {
   if (!active || !payload?.length) return null;
